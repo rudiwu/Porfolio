@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 body, html{
   margin: 0;
@@ -60,7 +62,7 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 1500px;
   background-image: url("images/space.jpg");
 }
 
@@ -72,7 +74,6 @@ a{
   height: 900px;
   background-image: url("images/giphy.gif");
 }
-
 .thisisaclass{
   text-align: center;
   font-size: 40px;
@@ -83,4 +84,186 @@ a{
 }
 p{
   font-size: 30px;
+}
+.pforstevenuniverse{
+  margin-top:0px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Chewy',cursive;
+}
+.selectionforuniverse {
+  color:white;
+  font-family: 'Chewy',cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.characterfocus{
+  color:white;
+  font-family: 'Chewy',cursive;
+  text-align: center;
+  font-size: 50px;
+}
+.universeintro {
+  color:hotpink;
+  font-family: 'Chewy',cursive;
+  text-align:left;
+  font-size: 30px;
+}
+.paddingforlists{
+  padding-left: 4cm;
+
+}
+/*container portfolio*/
+
+
+.container {
+  height: auto;
+  /* height automatically to fit all elements */
+  display: flex;
+  /* sets div to flexbox */
+  flex-wrap: wrap;
+  /* items move down to new line if no more space */
+  justify-content: center;
+  /* centers flexbox items */
+  padding: 40px 0;
+}
+
+.container-item {
+  height: 320px;
+  width: 200px;
+  margin: 1em;
+  transition: 0.2s;
+  background-color: white;
+  /* check out the Hover Grow Effect pen */
+}
+
+.container-item:hover {
+  transform: scale(1.2);
+  /* check out the Hover Grow Effect pen */
+}
+
+.container-item img {
+  object-fit: cover;
+  /* Makes the image fit nicely as a cover */
+  width: 100%;
+  height: 75%;
+}
+
+/* .container-item h2 {
+  text-align: center;
+  margin-top: 18px;
+} */
+
+
+
+
+.container-item h2 {
+  color: grey;
+  text-align: center;
+}
+
+
+/*Card Container*/
+/* Title Bar CSS */
+h2 {
+  padding: 20px;
+  text-align: center;
+  color: #abbfdb;
+  background-color: #092042;
+}
+
+/* Styling for the CSS Grid */
+.card-container {
+  background-color:violet;
+  display: grid;
+  /* There will be 3 columns, each 200px wide */
+  grid-template-columns: 200px 200px 200px;
+  /* There will be 2 rows, each 250px high */
+  grid-template-rows: 250px;
+  justify-content: center;
+  grid-gap: 1em;
+  height: 300px;
+  padding: 1em;
+}
+
+.cards {
+  background-color: violet;
+}
+
+.cards img {
+  object-fit: cover;
+  width: 100%;
+  height: 75%;
+}
+
+
+.cards h3 {
+  padding: 5px 0px 0px 65px;
+  /* Shorthand padding: top right bottom left */
+}
+
+.cards p {
+  padding-left: 65px;
+  font-size: 20px;
+  font-family: 'chewy',cursive;
+}
+
+
+/* parallax*/
+
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: white; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://www.incimages.com/uploaded_files/image/970x450/getty_862457080_200012792000928089_371310.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://millardwestcatalyst.com/wp-content/uploads/2019/02/extra_curricular_image_for_website-900x636.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
 }
