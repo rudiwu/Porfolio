@@ -2,24 +2,25 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
+/* overall*/
 body, html{
   margin: 0;
   padding: 0;
   text-decoration: none;
   height: 100%;
 }
-
+/* overall*/
 h1{
   margin: 0;
 }
-
+/* border code*/
 .textbox{
     border:5px solid white;
     margin-left: 120px;
     margin-right: 120px;
 
 }
-
+/* navigation bar code*/
 .navbar{
   border: 1px solid gray;
   display: flex;
@@ -31,7 +32,6 @@ h1{
 
 
 }
-
 .navbar li{
 
 
@@ -44,20 +44,20 @@ h1{
   display: flex;
   justify-content: center;
 }
-
+/* hover text*/
 .navbar li:hover{
   background-color: rgba(250, 165, 237, 0.5);
 }
-
 a{
   text-decoration: none;
   color: white;
 }
+/* class to center stuff*/
 .center{
   text-align: center;
 }
 
-
+/* steven universe background*/
 .bgSteven{
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +65,7 @@ a{
   height: 1500px;
   background-image: url("images/space.jpg");
 }
-
+/* the background in the home page*/
 .bgGif{
 
   background-repeat: no-repeat;
@@ -74,35 +74,42 @@ a{
   height: 900px;
   background-image: url("images/giphy.gif");
 }
+/* title in home page */
 .thisisaclass{
   text-align: center;
   font-size: 40px;
   font-family: 'Chewy', cursive;;
 }
+/* setting chewy font*/
 .chewyfont{
   font-family:'Chewy', cursive;;
 }
+/* paragraph settings */
 p{
   font-size: 30px;
 }
+/* the paragraph in steven universe*/
 .pforstevenuniverse{
   margin-top:0px;
   font-size: 50px;
   color: white;
   font-family: 'Chewy',cursive;
 }
+/* radio setting */
 .selectionforuniverse {
   color:white;
   font-family: 'Chewy',cursive;
   text-align: center;
   font-size: 30px;
 }
+/* introduction to the character sets */
 .characterfocus{
   color:white;
   font-family: 'Chewy',cursive;
   text-align: center;
   font-size: 50px;
 }
+/* for the list in steven univese.html */
 .universeintro {
   color:hotpink;
   font-family: 'Chewy',cursive;
